@@ -66,7 +66,7 @@ def forward_response(resp) -> Response:
     return Response(resp.content, status=resp.status_code, headers=headers)
 
 
-@app.route("/health", methods=["GET"])
+@app.route("/", methods=["GET"])
 def health():
     return jsonify({"status": "ok"}), 200
 
