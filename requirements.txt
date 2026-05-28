@@ -1,0 +1,5 @@
+flask
+cloudscraper
+requests
+urllib3
+gunicorn
